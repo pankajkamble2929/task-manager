@@ -16,7 +16,7 @@ const sequelize = new Sequelize(
     dialectOptions: dialect === 'mysql' ? {
       ssl: {
         require: true,
-        rejectUnauthorized: false, // <- CHANGE HERE for self-signed cert
+        rejectUnauthorized: true, // Aiven requires SSL
       },
     } : {},
   }
