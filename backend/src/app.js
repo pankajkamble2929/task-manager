@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middleware
-app.use(cors({ origin: 'http://localhost:4200' })); // allow Angular frontend
+app.use(cors({ origin: process.env.FRONTEND_URL || 'http://localhost:4200' })); 
 app.use(bodyParser.json());
 
 // Routes
