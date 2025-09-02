@@ -2,9 +2,12 @@
   "name": "frontend",
   "version": "0.0.0",
   "scripts": {
-    "start": "ng serve --proxy-config proxy.conf.json",
-    "build": "ng build",
-    "test": "ng test"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --configuration production",
+    "test": "ng test",
+    "lint": "ng lint",
+    "e2e": "ng e2e"
   },
   "prettier": {
     "printWidth": 100,
