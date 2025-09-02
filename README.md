@@ -62,6 +62,14 @@ DB_NAME=taskdb
 - Click on a task card to see Task Details.
 - Use the navigation bar to move between pages.
 
+## Screenshots
+
+### Home Page
+![Home Page](screenshot/home.png)
+
+### Add Task
+![Add Task Page](screenshot/add-task.png)
+
 
 ## License
 This is ready to use and explains both frontend and backend setup.  
