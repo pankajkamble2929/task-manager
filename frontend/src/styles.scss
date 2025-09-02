@@ -1,0 +1,14 @@
+/* src/styles.scss */
+
+/* use bootstrap via modern Sass @use syntax */
+@use "bootstrap/scss/bootstrap" as *;
+
+/* small custom styling */
+body {
+  background: #f8f9fa;
+}
+
+.container-main {
+  max-width: 1000px;
+  margin: 2rem auto;
+}
